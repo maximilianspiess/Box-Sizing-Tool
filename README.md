@@ -34,7 +34,7 @@ The spring loaded cell bends under load. A strain gauge perceives the this and r
 The project is based on the Heltec WiFi Kit 8. It is based on the ESP8266 microcontroller and uses up to 6V input. It has an onboard screen and WiFi a antenna [(learn more)](https://heltec.org/project/wifi-kit-32/).
 
 #### Wiring
-A diagram for the wiring is available in the appendix of this document.
+A diagram for the wiring is available [here](images/Box Sizing Tool Diagram.jpg).
 
 
 ## Code
