@@ -1,0 +1,1 @@
+This folder is to store older states of the main.cpp file, in case you want to change something but not lose what you had before.
