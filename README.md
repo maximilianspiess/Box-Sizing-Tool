@@ -31,10 +31,11 @@ Emits an ultrasonic wave and measures the time it takes to reflect back. That ti
 The spring loaded cell bends under load. A strain gauge perceives the this and returns a value for it. This value is converted into usable units using a factor. In the code, the outputted value is also adjusted through multiplication, to correct a measurement issue [(learn more)](https://circuitjournal.com/50kg-load-cells-with-HX711).
 
 #### Arduino Board
-The project is based on the Heltec WiFi Kit 8. It is based on the ESP8266 microcontroller and uses up to 6V input. It has an onboard screen and WiFi a antenna [(learn more)](https://heltec.org/project/wifi-kit-32/).
+The project is based on the Heltec WiFi Kit 8. It is based on the ESP8266 microcontroller and uses up to 6V input. It has an onboard screen and WiFi a antenna [(learn more)](https://heltec.org/project/wifi-kit-8/).
+The pinout diagram is [here](images/BoardPinout.jpg).
 
 #### Wiring
-A diagram for the wiring is available [here](images/Box Sizing Tool Diagram.jpg).
+A diagram for the wiring is available [here](images/WireDiagram.jpg).
 
 
 ## Code
