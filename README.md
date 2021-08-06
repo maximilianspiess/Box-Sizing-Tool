@@ -16,6 +16,7 @@ Just run and change the `main.cpp` file like a normal Arduino file and flash it 
 - 4x 50 kg load cells
 - 4x 4-wire du Pont cables 
 - 3x US sensor casing
+- 1x Arduino Heltec Wifi Kit 8 board
 
 ## Method
 An ultrasonic sensor is used to measure the distance to the package. That distance is subtracted from the distance of the sensor to the central axis, returning the size of the corresponding side of the package. This is done three times in sequence, once for every side, resulting in all the package’s sides being measured. 
