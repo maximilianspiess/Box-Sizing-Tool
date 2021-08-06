@@ -32,7 +32,7 @@ The spring loaded cell bends under load. A strain gauge perceives the this and r
 
 #### Arduino Board
 The project is based on the Heltec WiFi Kit 8. It is based on the ESP8266 microcontroller and uses up to 6V input. It has an onboard screen and WiFi a antenna [(learn more)](https://heltec.org/project/wifi-kit-8/).
-The pinout diagram is [here](images/BoardPinout.jpg).
+The pinout diagram is [here](images/BoardPinout.png).
 
 #### Wiring
 A diagram for the wiring is available [here](images/WireDiagram.jpg).
