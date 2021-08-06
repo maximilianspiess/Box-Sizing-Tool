@@ -9,13 +9,13 @@ If you want to make changes, download the entire repository and install all the 
 Just run and change the `main.cpp` file like a normal Arduino file and flash it to the board as usual.
 
 ## Components
-1x Metal frame
-1x Loading surface
-1x Micro USB cable
-3x US sensors
-4x 50 kg load cells
-4x 4-wire du Pont cables 
-3x US sensor casing
+- 1x Metal frame
+- 1x Loading surface
+- 1x Micro USB cable
+- 3x US sensors
+- 4x 50 kg load cells
+- 4x 4-wire du Pont cables 
+- 3x US sensor casing
 
 ## Method
 An ultrasonic sensor is used to measure the distance to the package. That distance is subtracted from the distance of the sensor to the central axis, returning the size of the corresponding side of the package. This is done three times in sequence, once for every side, resulting in all the package’s sides being measured. 
