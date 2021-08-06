@@ -1,7 +1,7 @@
 # Box-Sizing-Tool
 
-## Goal
-To develop an Arduino based “box-sizing-tool”, that allows packages to be placed on a surface and reads back their weight, width, length and height.
+## What is it
+An Arduino-based “box-sizing-tool”, that allows packages to be placed on a surface and reads back their weight, width, length and height.
 
 ## How to use it and makes changes
 If you want to just use the tool, connect it to power and make sure the scale is connected, otherwise it won't initialize. Don't place anything on the scale, or it will be tared wrong. Then wait for the logos to show, and place a package on the loading surface. The live values will be shown on the onboard screen.
@@ -56,7 +56,7 @@ Libraries: HX711, SPI, Wire, PCF8574, Adafruit_GFX, Adafruit_SSD1306 and Adafrui
 ## Current status
 The project hasn’t been finished due to a few problems that occur during operation:
 - The program/board/display stops working after restarting a few times. Has to be connected to a PC and flashed again. 
-- Not all US sensors return a value. Sensor Z (length) normally does, and sensor Y only works when it’s touched (ground connection was checked). Sensor X doesn’t return a value or it’s not being displayed for some reason. 
+- Not all US sensors return a value. Sensor Z (length) normally does, and sensor Y only works when it’s touched (ground connection was checked).
 - Sometimes the scale doesn’t calibrate right, and it shows a wrong value, or fluctuates randomly.
 
 
