@@ -62,3 +62,6 @@ The project hasn’t been finished due to a few problems that occur during opera
 Some work has to be done:
 - Check if the setup() and sequence of the code is causing the display to crash or clog after a restart.
 - Check if the loop() sequence has a bottleneck and slows/interrupts the sensor’s function.
+
+## More info
+Check out the wiring diagram and board pinout under 
