@@ -5,8 +5,8 @@ To develop an Arduino based “box-sizing-tool”, that allows packages to be pl
 
 ## How to use it and makes changes
 If you want to just use the tool, connect it to power and make sure the scale is connected, otherwise it won't initialize. Don't place anything on the scale, or it will be tared wrong. Then wait for the logos to show, and place a package on the loading surface. The live values will be shown on the onboard screen.
-If you want to make changes, you will need the `main.cpp` file and all the Arduino libraries listed below, as well as the actual frame. I recommend using PlatformIO on VSCode.
-Just run the `main.cpp` file like a normal Arduino file and flash it to the board as usual.
+If you want to make changes, download the entire repository and install all the Arduino libraries listed below. Open the folder as a PlatformIO Project.
+Just run and change the `main.cpp` file like a normal Arduino file and flash it to the board as usual.
 
 ## Components
 1x Metal frame
