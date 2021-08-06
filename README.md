@@ -43,7 +43,7 @@ A diagram for the wiring is available [here](images/WireDiagram.jpg).
 The code sequence is written in C++, but based on Arduino. It therefore uses Arduino libraries and needs an Arduino IDE installation. This version is written on VSCode and uses PlatformIO to manage it.
 
 ### Dependencies
-Libraries: HX711, SPI, Wire, Adafruit_GFX, Adafruit_SSD1306 and AdafruitBusIO.
+Libraries: HX711, SPI, Wire, PCF8574, Adafruit_GFX, Adafruit_SSD1306 and AdafruitBusIO.
 
 ### Code sequence
 - Multiple #define are used to define logo layouts, pin layouts for the US sensors, the load cell (scale) pins and screen address.
