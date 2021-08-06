@@ -66,4 +66,4 @@ Some work has to be done:
 - Check if the loop() sequence has a bottleneck and slows/interrupts the sensor’s function.
 
 ## More info
-Check out the wiring diagram and board pinout under 
+If there's something missing or something isn't clear, [contact me](mailto:m.spiess.henning@gmail.com?subject=Box-Sizing-Tool&body=Write%20your%20message%20here.).
