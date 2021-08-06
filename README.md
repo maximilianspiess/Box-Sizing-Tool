@@ -56,7 +56,7 @@ Libraries: HX711, SPI, Wire, PCF8574, Adafruit_GFX, Adafruit_SSD1306 and Adafrui
 ## Current status
 The project hasn’t been finished due to a few problems that occur during operation:
 - The program/board/display stops working after restarting a few times. Has to be connected to a PC and flashed again. 
-- Not all US sensors return a value. Sensor Z (length) normally does, and sensor Y only works when it’s touched (ground connection was checked).
+- Not all US sensors return a value. Sensor Z (length) and X (width) normally do, and sensor Y only works when it’s touched (ground connection was checked).
 - Sometimes the scale doesn’t calibrate right, and it shows a wrong value, or fluctuates randomly.
 
 
