@@ -25,13 +25,13 @@ Four 50 kg load cells, placed beneath the loading surface and in direct contact 
 ### Detail
 
 #### Ultrasonic sensor
-Emits an ultrasonic wave and measures the time it takes to reflect back. That time is then converted to distance in the code [learn more](https://www.keyence.com/ss/products/sensor/sensorbasics/ultrasonic/info/).
+Emits an ultrasonic wave and measures the time it takes to reflect back. That time is then converted to distance in the code [(learn more)](https://www.keyence.com/ss/products/sensor/sensorbasics/ultrasonic/info/).
 
 #### 50 kg load cells
-The spring loaded cell bends under load. A strain gauge perceives the this and returns a value for it. This value is converted into usable units using a factor. In the code, the outputted value is also adjusted through multiplication, to correct a measurement issue [learn more](https://circuitjournal.com/50kg-load-cells-with-HX711).
+The spring loaded cell bends under load. A strain gauge perceives the this and returns a value for it. This value is converted into usable units using a factor. In the code, the outputted value is also adjusted through multiplication, to correct a measurement issue [(learn more)](https://circuitjournal.com/50kg-load-cells-with-HX711).
 
 #### Arduino Board
-The project is based on the Heltec WiFi Kit 8. It is based on the ESP8266 microcontroller and uses up to 6V input. It has an onboard screen and WiFi a antenna [learn more](https://heltec.org/project/wifi-kit-32/).
+The project is based on the Heltec WiFi Kit 8. It is based on the ESP8266 microcontroller and uses up to 6V input. It has an onboard screen and WiFi a antenna [(learn more)](https://heltec.org/project/wifi-kit-32/).
 
 #### Wiring
 A diagram for the wiring is available in the appendix of this document.
